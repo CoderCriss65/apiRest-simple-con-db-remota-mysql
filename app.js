@@ -426,7 +426,7 @@ proveedoresRouter.delete("/:id", (req, res) => {
   });
 });
 
-// ==================== MONTAR RUTAS ====================
+// ==================== MONTAR RUTAS ====================#
 app.use("/empleados", empleadosRouter);
 app.use("/clientes", clientesRouter);
 app.use("/proveedores", proveedoresRouter);
